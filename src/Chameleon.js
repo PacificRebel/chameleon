@@ -7,22 +7,27 @@ class Chameleon extends Component {
     this.state = {currentColour: "black"}
   }
 
-  changeToRed = () => {
+changeToRed = () => {
+  this.setState({currentColour: "red"})
+}
 
-    // const newColour = this.state.currentColour.changeToRed((colour) => {
-    //   //something
-    // })
-    this.setState({currentColour: "red"})
-  }
+changeToBlue = () => {
+  this.setState({currentColour: "blue"})
+}
+
+changeToYellow = () => {
+  this.setState({currentColour: "yellow"})
+}
 
   render() {
     return(
-      <div className="change-to-red">
+      <div className="change-colour">
         <button onClick={this.changeToRed}>Change to Red</button>
-          <Colour heli={this.state.currentColour}/> 
+        <button onClick={this.changeToBlue}>Change to Blue</button>
+        <button onClick={this.changeToYellow}>Change to Yellow</button>
+          <Colour newColour={this.state.currentColour}/>
       </div>
     )
   }
 }
-
 export default Chameleon;

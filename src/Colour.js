@@ -2,8 +2,8 @@ import React from 'react'
 
 function Colour(props) {
   return (
-    <div className="colour" style={{color: props.heli}}>
-      YAAAAAAAAY
+    <div className="colour" style={{color: props.newColour}}>
+      I am a Chameleon
     </div>
   )
 }

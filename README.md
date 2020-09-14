@@ -1,6 +1,6 @@
-#Welcome to Chameleon!
+##Welcome to Chameleon!
 
-##An amazing colour-changing app, written with React :)
+#An amazing colour-changing app, written with React :)
 --------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App]  
 (https://github.com/facebook/create-react-app).

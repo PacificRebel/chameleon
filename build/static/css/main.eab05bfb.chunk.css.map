@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,WAAY,CACZ,gCAAkC,CAClC,cAAe,CACf,mBACF","file":"main.eab05bfb.chunk.css","sourcesContent":[".App {\n  margin: 1rem;\n  font-family: 'Quattrocento', serif;\n  font-size: 20px;\n  font-weight: lighter;\n}\n"]}
